@@ -12,12 +12,15 @@ header {
     color: white;
 }
 
-img {
-    max-height: 10rem;
+h1 {
+    margin: 0;
+    font-size: 24px;
 }
 
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -27,4 +30,5 @@ ul {
     padding: 0;
     display: flex;
     gap: 1rem;
+    font-size: 18px;
 }
