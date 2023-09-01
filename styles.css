@@ -1,0 +1,30 @@
+:root {
+    --clr-background: #1F2937;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+header {
+    background-color: var(--clr-background);
+    color: white;
+}
+
+img {
+    max-height: 10rem;
+}
+
+nav {
+    display: flex;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
