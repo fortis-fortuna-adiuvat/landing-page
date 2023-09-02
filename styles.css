@@ -7,21 +7,25 @@ body {
     margin: 0;
 }
 
+/* logo and nav bar */
+
 header {
     background-color: var(--clr-background);
     color: white;
+    height: 50vh;
+    padding: 1rem;
+}
+
+.logo-and-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5%;
 }
 
 h1 {
     margin: 0;
     font-size: 24px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
 }
 
 ul {
@@ -31,4 +35,42 @@ ul {
     display: flex;
     gap: 1rem;
     font-size: 18px;
+}
+
+/* main content in header */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+
+}
+
+.image {
+    display: flex;
+    background-color: grey;
+    min-width: 50%;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    width: 50%;
 }
