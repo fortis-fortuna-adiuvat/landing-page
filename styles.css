@@ -1,5 +1,8 @@
 :root {
     --clr-background: #1F2937;
+    --clr-text: #F9FAF8;
+    --clr-secondary-text: #E5E7EB;
+    --clr-button: #3882f6;
 }
 
 body {
@@ -11,7 +14,7 @@ body {
 
 header {
     background-color: var(--clr-background);
-    color: white;
+    color: var(--clr-text);
     height: 50vh;
     padding: 1rem;
 }
@@ -46,20 +49,30 @@ section {
     height: 95%;
 }
 
-
-p {
-    margin: 0;
-    padding: 0;
-}
-
-
-
 .header-content {
     display: flex;
     align-items: center;
     justify-content: center;
     width: fit-content;
 
+}
+
+.header-text {
+    width: 50%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.5em;
+    background-color: var(--clr-button);
+    color: var(--clr-text);
+    border: 0;
+    border-radius: 10%;
 }
 
 .image {
@@ -71,6 +84,7 @@ p {
     align-items: center;
 }
 
-.header-text {
-    width: 50%;
-}
+
+
+
+
