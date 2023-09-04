@@ -8,6 +8,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
+    overscroll-behavior: none;
 }
 
 /* logo and nav bar */
@@ -15,7 +16,7 @@ body {
 header {
     background-color: var(--clr-background);
     color: var(--clr-text);
-    height: 50vh;
+    height: 60vh;
     padding: 1rem;
 }
 
@@ -24,6 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 5%;
+    margin: 0 28%;
 }
 
 h1 {
@@ -94,5 +96,23 @@ button {
 
 /* second section */
 
+.section-two {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: start;
+}
 
+.cards {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    gap: 42px;
+}
+
+.card {
+    border: 2px solid red;
+    width: 50%;
+    height: 40%;
+}
 
