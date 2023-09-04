@@ -54,16 +54,22 @@ section {
     align-items: center;
     justify-content: center;
     width: fit-content;
+    gap: 50px;
 
 }
 
 .header-text {
-    width: 50%;
+    width: 38%;
 }
 
-p {
-    margin: 0;
+.header-text h1 {
+    font-size: 48px;
+}
+
+.header-text p {
+    margin: 5px 0 10px;
     padding: 0;
+    font-size: 18px;
 }
 
 button {
@@ -72,14 +78,16 @@ button {
     background-color: var(--clr-button);
     color: var(--clr-text);
     border: 0;
-    border-radius: 10%;
+    border-radius: 5px;
+    width: 30%;
+    cursor: pointer;
 }
 
 .image {
     display: flex;
     background-color: grey;
     min-width: 50%;
-    min-height: 500px;
+    min-height: 250px;
     justify-content: center;
     align-items: center;
 }
