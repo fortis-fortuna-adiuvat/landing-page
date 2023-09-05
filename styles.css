@@ -3,6 +3,7 @@
     --clr-text: #F9FAF8;
     --clr-secondary-text: #E5E7EB;
     --clr-button: #3882f6;
+    --clr-quote: #1f2937;
 }
 
 body {
@@ -135,4 +136,27 @@ button {
 .section-three {
     height: 40vh;
     background-color: var(--clr-secondary-text);
+}
+
+.third-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: var(--clr-quote);
+    
+}
+
+.third-text p {
+    display: flex;
+    justify-content: end;
+    margin-top: 34px;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
 }
