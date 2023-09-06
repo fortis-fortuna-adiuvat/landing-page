@@ -58,6 +58,7 @@ section {
     justify-content: center;
     width: fit-content;
     gap: 50px;
+    flex-wrap: wrap;
 
 }
 
@@ -159,4 +160,39 @@ blockquote {
     font-size: 1.5rem;
     font-style: normal;
     font-weight: bold;
+}
+
+/* Section-four */
+
+.section-four {
+    height: 30vh;
+}
+
+.section-four p,
+.section-four h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.section-four p {
+    color: var(--clr-secondary-text);
+}
+
+.button-four {
+    border: 2px solid white;
+    font-size: 1rem;
+    padding: 0.5em;
+    width: 10%;
+}
+
+.content-four {
+    background-color: var(--clr-button);
+    color: var(--clr-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 35%;
+    border-radius: 5px;
+    gap: 500px;
 }
