@@ -196,3 +196,11 @@ blockquote {
     border-radius: 5px;
     gap: 500px;
 }
+
+/* section five */
+
+.section-five {
+    height: 10vh;
+    background-color: var(--clr-background);
+    color: var(--clr-text);
+}
