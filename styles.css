@@ -79,13 +79,13 @@ section {
     flex-wrap: wrap;
     padding: 3em;
     border-radius: 100px;
-    opacity: 0.6;
-    background-color: #1F2937;
+    background-color: rgba(0, 0, 0, 0.7);
 
 }
 
 .header-text {
     width: 38%;
+    color: var(--clr-text);
 }
 
 .header-text h1 {
