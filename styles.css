@@ -58,7 +58,7 @@ ul {
     padding: 0;
     display: flex;
     gap: 1rem;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 /* main content in header */
@@ -89,13 +89,14 @@ section {
 }
 
 .header-text h1 {
-    font-size: 48px;
+    font-size: 3rem;
+    margin-bottom: 0;
 }
 
 .header-text p {
     margin: 5px 0 10px;
     padding: 0;
-    font-size: 18px;
+    font-size: 1.5rem;
     color: var(--clr-secondary-text);
 }
 
