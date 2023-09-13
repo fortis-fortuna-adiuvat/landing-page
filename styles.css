@@ -74,7 +74,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: fit-content;
+    width: 50%;
     gap: 50px;
     flex-wrap: wrap;
     padding: 3em;
@@ -102,7 +102,7 @@ section {
 
 button {
     font-size: 1rem;
-    padding: 0.5em;
+    padding: 0.5em 0;
     background-color: var(--clr-button);
     color: var(--clr-text);
     border: 0;
@@ -111,13 +111,10 @@ button {
     cursor: pointer;
 }
 
-.image {
-    display: flex;
-    background-color: grey;
-    min-width: 50%;
-    min-height: 250px;
-    justify-content: center;
-    align-items: center;
+img {
+    width: 20vw;
+    height: auto;
+    border-radius: 20px;
 }
 
 /* second section */
