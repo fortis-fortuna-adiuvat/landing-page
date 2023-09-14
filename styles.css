@@ -221,7 +221,7 @@ blockquote {
 /* section five */
 
 .section-five {
-    height: 10vh;
+    height: 5vh;
     background-color: var(--clr-background);
     color: var(--clr-text);
 }
