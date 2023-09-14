@@ -129,6 +129,7 @@ img {
 .section-two h2 {
     font-size: 36px;
     margin: 52px 0;
+    color: var(--clr-text);
 }
 
 .cards {
