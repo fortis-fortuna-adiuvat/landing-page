@@ -156,7 +156,7 @@ img {
 /* Third section  */
 
 .section-three {
-    height: 40vh;
+    height: 30vh;
     background-color: var(--clr-secondary-text);
 }
 
@@ -214,7 +214,7 @@ blockquote {
     align-items: center;
     width: 60%;
     height: 35%;
-    border-radius: 5px;
+    border-radius: 50px;
     gap: 500px;
 }
 
