@@ -132,8 +132,8 @@ img {
     color: var(--clr-text);
 }
 
-.cards, img {
-    width: 10vw;
+.cards img {
+    width: 15vw;
     height: auto;
     border-radius: 15px;
 }
@@ -148,8 +148,9 @@ img {
 }
 
 .container p {
-    color: gray;
+    color: var(--clr-secondary-text);
     font-size: 18px;
+    text-align: center;
 }
 
 /* Third section  */
